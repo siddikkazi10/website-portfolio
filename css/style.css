@@ -282,6 +282,23 @@ form textarea{
     .what-text{
        padding-left: 50px;
     }
+    .resume-parent{
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        text-align: center;
+        padding: 0;
+    }
+    .btn-sub{
+  /* display: flex; */
+    justify-content: center;
+    margin-right: 30px;
+}
+.contact-parent{
+    flex-direction: column;
+     align-items: center;
+    padding: auto;
+    margin: auto;
+}
     
 
 }
