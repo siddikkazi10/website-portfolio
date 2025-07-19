@@ -265,8 +265,9 @@ form textarea{
         margin-bottom: 50px;
     }
     .about{
-        width: 500px;
+        width: 90%;
         align-items: center;
+        margin-top: 90px;
     }
     .parent-info{
         flex-direction: column;
@@ -274,7 +275,7 @@ form textarea{
        }
 
     .container{
-        margin: 50% 0 50px 0;
+        margin: 0 0 50px 0;
         padding: auto;
         
     }
@@ -291,7 +292,8 @@ form textarea{
         margin-top: 30px;
     }
     .what-text{
-       padding-left: 50px;
+       padding: 30px;
+       
     }
     .resume-parent{
         grid-template-columns: repeat(1, 1fr);
@@ -300,7 +302,6 @@ form textarea{
         padding: 0;
     }
     .btn-sub{
-  /* display: flex; */
     justify-content: center;
     margin-right: 30px;
 }
@@ -310,9 +311,14 @@ form textarea{
     padding: auto;
     margin: 0 20px;
 }
+
 .contact-info{
     width: 300px;
 }
+ footer{
+    margin-top: 50px;
+ }
+
 }
  
  /* chatgp help for responsive  */
