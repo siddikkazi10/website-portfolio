@@ -225,83 +225,63 @@ form textarea{
     display: flex;
     margin-top: 20px;
 }
+.hide{
+    display: none;
+}
+
+
+
+
+
 
 
 /* mediya quary */
-@media screen and (max-width: 576px) {
-.resume-parent{
+@media screen and (max-width: 768px) {
+    .header-parent{
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin: 0 30px;
+    }
+    nav, nav ul{
+        flex-direction: column;
+        
+    }
+    nav ul li{
+         margin: 10px 0;
+    }
+    .content{
+        margin-bottom: 50px;
+    }
+    .about{
+        width: 500px;
+        align-items: center;
+    }
+    .parent-info{
+        flex-direction: column;
+        align-items: center;
+       }
 
-   display: flex;
-   flex-direction: column;
-   /* padding: 20px; */
-   align-items: center;
-   justify-content: center;
-   text-align: center;
-   padding: auto;
-    margin: auto;
-
-}
-.btn-type{
-    margin-left: -298px;
-   
-}
-
-.contact-parent{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: auto;
-    margin: auto;
-}
-
-.card-parent{
-    flex-direction: column;
-    padding: auto;
-    margin: auto;
-  
-}
-.about{
-  padding: 20px;
-  width: 300px;
-
-  
-}
-.container{
-     padding: 10px;
-     margin: 10px;
-}
-.parent-info{
-    flex-direction: column;
-    justify-content: center;
-}
-.header-parent{
-   flex-direction: column;
-    align-items: center;
-   padding: 20px;
-   margin: auto;
-   
- 
-}
-header{
-    background-image: url(./image/developer.png);
-    background-repeat: no-repeat;
-    background-position: top left;
-}
-.hardy img{
-    width: 95%;
-    margin-top: 62px;
-}
-
-nav{
-   flex-direction: column;
-   
-}
-nav ul{
-    display: flex;
-    flex-direction: column;
-    margin: 32px 0;
-}
-
-
+    .container{
+        margin: 50% 0 50px 0;
+        padding: auto;
+        
+    }
+    .card-parent{
+        flex-direction: column;
+     
+        padding:  20px;
+       
+    }
+    .single-card{
+        width: 300px;
+        align-items: center;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .what-text{
+       padding-left: 50px;
+    }
+    
 
 }
